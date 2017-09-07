@@ -7,3 +7,4 @@ random.shuffle(deck)
 print("You drew:")
 for i in range(7):
 	print(deck[i][0], "of", deck [i][1])
+print("\nThanks for using my programme")
