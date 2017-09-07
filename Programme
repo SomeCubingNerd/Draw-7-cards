@@ -1,0 +1,9 @@
+import itertools, random
+
+deck = list(itertools.product(range(1,14),['spades','hearts','diamonds','clubs']))
+
+random.shuffle(deck)
+
+print("You drew:")
+for i in range(7):
+	print(deck[i][0], "of", deck [i][1])
